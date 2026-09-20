@@ -1,0 +1,44 @@
+# Unity and IDE generated files
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/obj/
+/Build/
+/Builds/
+/MemoryCaptures/
+/Recordings/
+/TestResults/
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.pdb
+*.mdb
+*.user
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+mono_crash.*
+*.log
+*.tmp
+
+# Local credentials and match sessions
+/LocalSettings/
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+!jev.env.example
+
+# Tool caches
+node_modules/
+__pycache__/
+*.pyc

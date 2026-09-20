@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd15630c167ce4acd91f217a1148be6a, type: 3}
+  m_Name: GameCatalog
+  m_EditorClassIdentifier: Jev.Gameplay::Jev.Gameplay.Authoring.GameCatalog
+  Units:
+  - Faction: 0
+    Kind: 0
+    Prefab: {fileID: 9102414029316758971, guid: 988b6d3768acd4a839aac1ec4cf96730, type: 3}
+  - Faction: 0
+    Kind: 1
+    Prefab: {fileID: 5670653713857486059, guid: 6d251a2a8ae4e431d8ed3e3abe373af2, type: 3}
+  - Faction: 0
+    Kind: 2
+    Prefab: {fileID: 2765091530601716325, guid: 33ff6688f417348e7962699b6badadb2, type: 3}
+  - Faction: 1
+    Kind: 0
+    Prefab: {fileID: 800408239942582628, guid: 8a839b240f9b54f4d868891ee09db91a, type: 3}
+  - Faction: 1
+    Kind: 1
+    Prefab: {fileID: 296507128498992917, guid: 2a429bfb2cab6483cbec67cd845423ac, type: 3}
+  - Faction: 1
+    Kind: 2
+    Prefab: {fileID: 1080314774980397996, guid: ac2ce719257664a36b8bf4a9189c0994, type: 3}
+  Buildings:
+  - Faction: 0
+    Kind: 0
+    Prefab: {fileID: 7708402049573657452, guid: 702ce79b2f70e4c0a825cb09996a63bd, type: 3}
+    Width: 7
+    Height: 7
+    SelectionSize: {x: 7.999999, y: 8.1077, z: 6.3845787}
+  - Faction: 0
+    Kind: 1
+    Prefab: {fileID: 8028194799466013067, guid: 4784958f8d5944ca1a3ce213c98937b3, type: 3}
+    Width: 5
+    Height: 5
+    SelectionSize: {x: 4.502887, y: 4.6795244, z: 3.899991}
+  - Faction: 0
+    Kind: 2
+    Prefab: {fileID: 8916221773320775248, guid: ebb3fb62dead34f26942c9959c87d91a, type: 3}
+    Width: 7
+    Height: 7
+    SelectionSize: {x: 5.9999995, y: 4.955, z: 5.118816}
+  - Faction: 0
+    Kind: 3
+    Prefab: {fileID: 2693619636259056876, guid: 5a8f368cd12e9473cbcaadb75d47b3ae, type: 3}
+    Width: 7
+    Height: 7
+    SelectionSize: {x: 6.0273266, y: 4.970395, z: 4.504251}
+  - Faction: 0
+    Kind: 4
+    Prefab: {fileID: 5643289014547053490, guid: f1aa5f76621804e7eb2e1459ff7ecdc6, type: 3}
+    Width: 5
+    Height: 5
+    SelectionSize: {x: 3.4403877, y: 6.021736, z: 2.6099012}
+  - Faction: 1
+    Kind: 0
+    Prefab: {fileID: 8317006722431975783, guid: 6ee5f80f99a24430e9e773ac8bc4d2da, type: 3}
+    Width: 7
+    Height: 7
+    SelectionSize: {x: 8.043986, y: 7.3658953, z: 7.221513}
+  - Faction: 1
+    Kind: 1
+    Prefab: {fileID: 2440583975612315972, guid: 4ed1d3fa9694e46bda8c84cbfd430bc4, type: 3}
+    Width: 5
+    Height: 5
+    SelectionSize: {x: 4.502342, y: 4.2088046, z: 4.3309994}
+  - Faction: 1
+    Kind: 2
+    Prefab: {fileID: 6996334208223771797, guid: 8a1293a785fa54800a27cf238c7b078b, type: 3}
+    Width: 7
+    Height: 7
+    SelectionSize: {x: 6, y: 5.4168196, z: 6.1046305}
+  - Faction: 1
+    Kind: 3
+    Prefab: {fileID: 6743782483390618109, guid: 9377ffbe125a24acdab69819f25bdfbc, type: 3}
+    Width: 7
+    Height: 7
+    SelectionSize: {x: 5.9999995, y: 4.684657, z: 4.7092466}
+  - Faction: 1
+    Kind: 4
+    Prefab: {fileID: 7657943033404215918, guid: 8aa76528b0382440983972b8d530474c, type: 3}
+    Width: 5
+    Height: 5
+    SelectionSize: {x: 4.671797, y: 6.007921, z: 3.7181606}
+  ResourceProxy: {fileID: 3569451586186091168, guid: 3bfc84abfaf684a47982cdc54aa1b49f, type: 3}
+  BuildingSelection: {fileID: 0}
+  BuildPreview: {fileID: 6155609239692409211, guid: a876a206425314f7294085c22c4463d3, type: 3}

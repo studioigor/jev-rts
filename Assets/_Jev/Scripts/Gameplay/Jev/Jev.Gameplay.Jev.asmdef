@@ -1,0 +1,8 @@
+{
+  "name": "Jev.Gameplay.Jev",
+  "rootNamespace": "Jev.Gameplay.Jev",
+  "references": [],
+  "overrideReferences": true,
+  "precompiledReferences": ["Newtonsoft.Json.dll"],
+  "autoReferenced": true
+}

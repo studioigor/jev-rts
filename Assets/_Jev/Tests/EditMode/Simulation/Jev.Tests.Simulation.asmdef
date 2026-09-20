@@ -1,0 +1,10 @@
+{
+  "name": "Jev.Gameplay.Simulation.Tests",
+  "rootNamespace": "Jev.Gameplay.Simulation.Tests",
+  "references": ["Jev.Gameplay.Simulation"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll", "Newtonsoft.Json.dll"],
+  "autoReferenced": false
+}

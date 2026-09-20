@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46f48a6bb6604d15a76d13aa3e496d2, type: 3}
+  m_Name: MatchSettings
+  m_EditorClassIdentifier: Jev.Gameplay::Jev.Gameplay.Authoring.MatchSettings
+  DefaultUnitCap: 20
+  StartingWood: 60
+  StartingGold: 40
+  DecisionInterval: 1
+  DecisionPrefetchSeconds: 1
+  IdleHeartbeat: 10
+  SensorInterval: 0.8
+  DecisionPreparationsPerFrame: 2
+  DecisionPreparationBudgetMilliseconds: 2
+  SensorReviewsPerFrame: 4
+  DecisionCompletionsPerFrame: 4
+  StepDuration: 0.48
+  WorkDuration: 0.75
+  CommanderInterval: 4
+  EnableShortSegments: 1
+  PublicTerrainNavigation: 1
+  PublicTerrainRadius: 12
+  ExtendedMovementVocabulary: 1
+  EnableEnemyCommander: 1
+  EnableFogOfWar: 1
+  Rules:
+    PerFactionUnitLimit: 20
+    WoodPerGather: 5
+    GoldPerGather: 5
+    DecisionIntervalSeconds: 2
+    RotatingMovementPriority: 1
+    PublicLocalTerrain: 0
+    PublicTerrainRadius: 0
+    ExtendedMovementVocabulary: 0
+    CircularUnitVision: 1
+    Units:
+    - Kind: 0
+      MaxHp: 40
+      Damage: 4
+      Range: 1
+      Vision: 10
+      Cost:
+        Wood: 0
+        Gold: 10
+      TrainingSeconds: 12
+    - Kind: 1
+      MaxHp: 100
+      Damage: 12
+      Range: 1
+      Vision: 11
+      Cost:
+        Wood: 0
+        Gold: 15
+      TrainingSeconds: 12
+    - Kind: 2
+      MaxHp: 60
+      Damage: 8
+      Range: 3
+      Vision: 12
+      Cost:
+        Wood: 5
+        Gold: 10
+      TrainingSeconds: 12
+    Buildings:
+    - Kind: 0
+      MaxHp: 300
+      RequiredWork: 4
+      PopulationProvided: 10
+      Damage: 0
+      Range: 0
+      Vision: 6
+      FootprintSizeX: 1
+      FootprintSizeY: 1
+      Cost:
+        Wood: 60
+        Gold: 30
+      TrainableUnits: 00000000i
+    - Kind: 1
+      MaxHp: 100
+      RequiredWork: 2
+      PopulationProvided: 5
+      Damage: 0
+      Range: 0
+      Vision: 6
+      FootprintSizeX: 1
+      FootprintSizeY: 1
+      Cost:
+        Wood: 15
+        Gold: 0
+      TrainableUnits: 
+    - Kind: 2
+      MaxHp: 180
+      RequiredWork: 3
+      PopulationProvided: 0
+      Damage: 0
+      Range: 0
+      Vision: 6
+      FootprintSizeX: 1
+      FootprintSizeY: 1
+      Cost:
+        Wood: 20
+        Gold: 10
+      TrainableUnits: 01000000i
+    - Kind: 3
+      MaxHp: 150
+      RequiredWork: 3
+      PopulationProvided: 0
+      Damage: 0
+      Range: 0
+      Vision: 6
+      FootprintSizeX: 1
+      FootprintSizeY: 1
+      Cost:
+        Wood: 25
+        Gold: 10
+      TrainableUnits: 02000000i
+    - Kind: 4
+      MaxHp: 160
+      RequiredWork: 3
+      PopulationProvided: 0
+      Damage: 10
+      Range: 4
+      Vision: 6
+      FootprintSizeX: 1
+      FootprintSizeY: 1
+      Cost:
+        Wood: 20
+        Gold: 15
+      TrainableUnits: 

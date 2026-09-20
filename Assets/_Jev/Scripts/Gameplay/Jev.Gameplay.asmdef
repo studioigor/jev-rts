@@ -1,0 +1,16 @@
+{
+  "name": "Jev.Gameplay",
+  "rootNamespace": "Jev.Gameplay",
+  "references": [
+    "Jev.Gameplay.Simulation",
+    "Jev.Gameplay.Jev",
+    "Unity.InputSystem",
+    "Unity.ugui",
+    "Unity.TextMeshPro"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": true
+}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc815edb7d38a408cb732013c64ce50e, type: 3}
+  m_Name: JevRtsChokepointScenario
+  m_EditorClassIdentifier: Jev.Gameplay::Jev.Gameplay.Diagnostics.NavigationScenarioDefinition
+  Battlefield: {fileID: 11400000, guid: 2aeb2f03ba76846f8a1628b792491e3c, type: 2}
+  Settings: {fileID: 11400000, guid: 65c75b55ce07b4f3d90c9510c5b75dae, type: 2}
+  Faction: 0
+  UnitKind: 1
+  Starts:
+  - X: 3
+    Y: 7
+  - X: 4
+    Y: 7
+  - X: 5
+    Y: 7
+  - X: 6
+    Y: 7
+  - X: 7
+    Y: 7
+  - X: 3
+    Y: 8
+  - X: 4
+    Y: 8
+  - X: 5
+    Y: 8
+  - X: 6
+    Y: 8
+  - X: 7
+    Y: 8
+  - X: 3
+    Y: 9
+  - X: 4
+    Y: 9
+  - X: 5
+    Y: 9
+  - X: 6
+    Y: 9
+  - X: 7
+    Y: 9
+  - X: 3
+    Y: 10
+  - X: 4
+    Y: 10
+  - X: 5
+    Y: 10
+  - X: 6
+    Y: 10
+  - X: 7
+    Y: 10
+  Target:
+    X: 19
+    Y: 9
+  RequiredHoldSeconds: 12
+  TimeoutSeconds: 240
+  PassageMinX: 11
+  PassageMaxX: 13
+  PassageY: 9
